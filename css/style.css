@@ -9,6 +9,12 @@ img {
 .ms_list_no_margin {
   margin: 0;
 }
+.top_down_buffer{
+  padding: 30px 0;
+}
+.border_radius{
+  border-radius: 5px;
+}
 /*HEADER*/
 /*navbar*/
 header .primary_navbar ul,
@@ -27,21 +33,59 @@ header .primary_navbar .ms_btn{
   color: blue;
   padding: 5px 10px;
   border: 1px solid blue;
-  border-radius: 5px;
+
 }
 header .primary_navbar .burger{
   font-size: 20px;
   color: blue;
 }
+/*fine navbar*/
 
-header .ms_titolo{
-  height: 300px;
+ /* titolo principale */
+header #ms_titolo{
   background-image: url(../img/bg-home.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-
+header .ms_text{
+  color: white;
+}
+@media screen and (min-width: 992px ) {
+   header .ms_text h1{
+     font-size: 50px;
+   }
+   header .ms_text p{
+     font-size: 20px;
+   }
+}
+header .ms_box{
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+header .ms_box span{
+  color: blue;
+}
+/*personalizzo bottone*/
+header .ms_box .ms_google{
+  background-image: url(../img/google-icon.png);
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: 2% 50%;
+}
+header .ms_box p{
+  padding-top:10px;
+  font-size: 15px;
+}
+header .ms_box p a{
+  text-decoration: underline;
+}
+@media screen and (max-width: 991px ) {
+   header .ms_box h3{
+     margin-top: 0px;
+   }
+}
 /*MAIN*/
 
 
