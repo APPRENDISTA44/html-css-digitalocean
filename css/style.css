@@ -60,7 +60,6 @@ header .ms_text{
 }
 header .ms_box{
   background-color: white;
-  text-align: center;
   border-radius: 5px;
   padding: 20px 10px;
 }
@@ -86,7 +85,32 @@ header .ms_box p a{
      margin-top: 0px;
    }
 }
+
 /*MAIN*/
+/*loghi*/
+main .ms_logos{
+  background-color: #f3f5f9;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+main .ms_logos a{
+  color: blue;
+}
+main .ms_logos h4{
+  color: #79849e;
+}
+
+/* calcolo dimensioni immagini */
+main .ms_logos .images li{
+  width: calc((90%/6)*1);
+}
+@media screen and (max-width: 991px ) {
+  main .ms_logos .images li{
+    width: calc((90%/2)*1);
+  }
+}
+
+
 
 
 /*FOOTER*/
