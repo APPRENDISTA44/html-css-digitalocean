@@ -88,24 +88,24 @@ header .ms_box p a{
 
 /*MAIN*/
 /*loghi*/
-main .ms_logos{
+main #ms_logos{
   background-color: #f3f5f9;
   padding-top: 30px;
   padding-bottom: 25px;
 }
-main .ms_logos a{
+main #ms_logos a{
   color: blue;
 }
-main .ms_logos h4{
+main #ms_logos h4{
   color: #79849e;
 }
 
 /* calcolo dimensioni immagini */
-main .ms_logos .images li{
+main #ms_logos .images li{
   width: calc((90%/6)*1);
 }
 @media screen and (max-width: 991px ) {
-  main .ms_logos .images li{
+  main #ms_logos .images li{
     width: calc((90%/2)*1);
   }
 }
