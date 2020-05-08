@@ -134,7 +134,7 @@ main #ms_logos .images li{
   color: #79849e;
 }
 
-/* Designed for developers */
+/* Designed for developers e Development teams*/
 .ms_slider{
   background-color: #f3f5f9;
 }
@@ -150,11 +150,6 @@ main #ms_logos .images li{
 .ms_slider p{
   padding-top: 15px;
 }
-@media screen and (max-width: 991px ){
-  .ms_slider p{
-    padding-bottom: 30px;
-  }
-}
 .ms_slider .ms_carosel .arrow{
   font-size: 30px;
   position: absolute;
@@ -166,6 +161,32 @@ main #ms_logos .images li{
 }
 .ms_slider .ms_carosel .arrow_right{
   right: 0;
+}
+.ms_slider .ms_carosel .slider_main .ms_rockerbox{
+  background-color: white;
+  margin-bottom: 25px;
+}
+.ms_slider .ms_carosel .slider_main .ms_rockerbox img{
+  width: 50%;
+  margin: 0 auto;
+}
+p.no_padding{
+  padding-top: 0;
+}
+@media screen and (max-width: 991px ){
+  .ms_slider p{
+    padding-bottom: 30px;
+  }
+  .ms_slider .ms_carosel .slider_main .ms_rockerbox p{
+    padding: 0;
+  }
+  .ms_slider .ms_carosel .slider_main .ms_rockerbox img{
+    padding-bottom: 10px;
+    width: 90%;
+  }
+  .ms_slider .ms_carosel{
+    width: 60%;
+  }
 }
 
 /*business need*/
