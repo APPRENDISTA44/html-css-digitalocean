@@ -197,40 +197,46 @@ p.no_padding{
   margin-top: 0;
 }
 
-/*regions*/
-#regions{
+/*ms_regions*/
+#ms_regions{
   background-color: #0031ae;
   color: white;
 }
-#regions a
+#ms_regions a
 {
   display: inline-block;
   color: #00a1c8;
 }
-#regions h5,
-#regions p{
+#ms_regions h5,
+#ms_regions p{
   margin: 0;
 }
-#regions h5,
-#regions p,
-#regions a
+#ms_regions h5,
+#ms_regions p,
+#ms_regions a
 {
   padding:10px 0;
 }
-#regions h5{
+#ms_regions h5{
   line-height: inherit;
 }
 
 @media screen and (min-width: 1200px ){
-#regions .ms_padding_left{
+#ms_regions .ms_padding_left{
   padding-left: 10px;
 }
-#regions .ms_padding_right{
+#ms_regions .ms_padding_right{
   padding-right: 10px;
 }
 }
-
-
+#ms_started{
+  background-color: #0031ae;
+  color: white;
+}
+#ms_started button{
+  color: blue;
+  margin-top: 20px;
+}
 
 
 /*FOOTER*/
