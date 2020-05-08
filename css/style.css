@@ -21,6 +21,10 @@ body{
 h5{
   font-weight: bold;
 }
+.border_bottom{
+  border-bottom: 1px solid white;
+}
+
 /*HEADER*/
 /*navbar*/
 header .primary_navbar ul,
@@ -172,6 +176,38 @@ main #ms_logos .images li{
   margin-top: 0;
 }
 
+/*regions*/
+#regions{
+  background-color: #0031ae;
+  color: white;
+}
+#regions a
+{
+  display: inline-block;
+  color: #00a1c8;
+}
+#regions h5,
+#regions p{
+  margin: 0;
+}
+#regions h5,
+#regions p,
+#regions a
+{
+  padding:10px 0;
+}
+#regions h5{
+  line-height: inherit;
+}
+
+@media screen and (min-width: 1200px ){
+#regions .ms_padding_left{
+  padding-left: 10px;
+}
+#regions .ms_padding_right{
+  padding-right: 10px;
+}
+}
 
 
 
