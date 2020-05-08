@@ -18,6 +18,9 @@ body{
 .border_radius{
   border-radius: 5px;
 }
+h5{
+  font-weight: bold;
+}
 /*HEADER*/
 /*navbar*/
 header .primary_navbar ul,
@@ -126,11 +129,49 @@ main #ms_logos .images li{
 #ms_deploy .ms_list a{
   color: #79849e;
 }
-#ms_deploy .ms_list h5{
-  font-weight: bold;
-}
 
 /* Designed for developers */
+.ms_slider{
+  background-color: #f3f5f9;
+}
+.ms_slider .ms_carosel {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.ms_slider .ms_carosel .slider_main {
+  width: 90%;
+  margin: 0 auto;
+}
+.ms_slider p{
+  padding-top: 15px;
+}
+@media screen and (max-width: 991px ){
+  .ms_slider p{
+    padding-bottom: 30px;
+  }
+}
+.ms_slider .ms_carosel .arrow{
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ms_slider .ms_carosel .arrow_left{
+  left: 0;
+}
+.ms_slider .ms_carosel .arrow_right{
+  right: 0;
+}
+
+/*business need*/
+#ms_business a{
+  color: blue;
+}
+#ms_business h3{
+  margin-top: 0;
+}
+
 
 
 
